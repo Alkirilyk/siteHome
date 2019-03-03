@@ -196,3 +196,155 @@ body{
 .psd{
     background: #131313;
 }
+
+
+.about-creativa{
+    width:86%;
+    margin:0 auto;
+    border:2px solid red;
+}
+
+.about-creativa h1{
+    margin-top:40px;
+    font-family:Raleway;
+    color:black;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.about-creativa span{
+    color:red;
+}
+
+.about-creativa p{
+    font-family: Raleway;
+    font-size:16px;
+    font-weight:bold;
+    text-align:center;
+    margin-top:30px;
+}
+
+.creativa-content{
+    margin-top:20px;
+    display:flex;
+}
+
+.creativa-text{
+    width:45%;
+    /* border:2px solid red; */
+}
+
+.creativa-images{
+    margin-left:5%;
+    width:60%;
+    /* border:2px solid red; */
+}
+
+.info-block1 , .info-block2 , .info-block3 {
+    margin-top:25px;
+    width:100%;
+    height:50px;
+    border:2px solid #e7e7e7;
+    background: #f7f7f7;
+    display:flex;
+}
+
+.info1-button, .info2-button, .info3-button{
+    width:10%;
+    text-align: center;
+    border-right:2px solid #e7e7e7;
+}
+
+.info1-text h2 , .info2-text h2 , .info3-text h2{
+    margin-top:15px;
+    font-family:Raleway;
+    font-size:20px;
+    padding-left:20px;
+    font-weight:bold;
+}
+
+.creativa-text button{
+    text-align: center;
+    margin-top:5%;
+    padding:10px;
+    font-size:15px;
+    border-radius:50%;
+    background:rgba(0,0,0,0);
+    border:2px solid black;
+}
+
+.info-block1:hover button {
+    color:red;
+    border:2px solid red;
+}
+
+.info-block1:hover h2 {
+    color:red;
+}
+
+.info-block2:hover button {
+    color:red;
+    border:2px solid red;
+}
+
+.info-block2:hover h2 {
+    color:red;
+}
+
+.info-block3:hover button {
+    color:red;
+    border:2px solid red;
+}
+
+.info-block3:hover h2 {
+    color:red;
+}
+
+.block1, .block2, .block3{
+    border:2px solid #e7e7e7;
+    border-top:none;
+    height:90px;
+    width:100%;
+    display:none;
+}
+
+.block1 p, .block2 p, .block3 p{
+    text-align:left;
+    padding-left:20px;
+    font-size:15px;
+}
+
+.creativa-photoes{
+    margin-top:15%;
+    position:relative;
+    /* border:2px solid greenyellow; */
+    display:flex;
+    /* width:600px; */
+    overflow-x: hidden;
+    padding-top:40px;
+}
+
+.centr-photo{
+    position: absolute;
+    text-align:center;
+    left:25%;
+    bottom:10%;
+    z-index:3;
+}
+
+.creativa-photoes img{
+    height:275px;
+    width:325px;
+    /* position:absolute; */
+    /* margin-left:50px; */
+}
+
+.left-photo , .right-photo{
+    z-index:2;
+}
+
+.creativa-photoes img:hover{
+    z-index:10;
+    transition:2s;
+}
