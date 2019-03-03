@@ -201,7 +201,7 @@ body{
 .about-creativa{
     width:86%;
     margin:0 auto;
-    border:2px solid red;
+    /* border:2px solid red; */
 }
 
 .about-creativa h1{
@@ -346,5 +346,26 @@ body{
 
 .creativa-photoes img:hover{
     z-index:10;
-    transition:2s;
 }
+
+.scroll-bar{
+    width:100%;
+    /* border:2px solid red; */
+    margin-top:5%;
+    text-align: center;
+}
+
+.benefits{
+    margin-top:40px;
+    border:2px solid greenyellow;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.benefits div{
+    border:2px solid red;
+    width:20%;
+
+}
+
